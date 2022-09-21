@@ -1,0 +1,19 @@
+<ul>
+<li>Ürün adı : Delonghi Kahve Makinası</ul>
+<li>Ürün fiyatı : 7500.0</ul>
+<li>İndirim : 74.0</ul>
+<li>Stok : 23</ul>
+<li>Ürün image url : deneme.jpg</ul>
+
+<li>Ürün adı : Smeg Kahve Makinası</ul>
+<li>Ürün fiyatı : 7000.0</ul>
+<li>İndirim : 77.0</ul>
+<li>Stok : 30</ul>
+<li>Ürün image url : deneme2.jpg</ul>
+
+<li>Ürün adı : Kitchen Aid Kahve Makinası</ul>
+<li>Ürün fiyatı : 500.0</ul>
+<li>İndirim : 70.0</ul>
+<li>Stok : 36</ul>
+<li>Ürün image url : deneme3.jpg</ul>
+</ul>
