@@ -35,6 +35,27 @@ public class Main {
 		}
 		System.out.println("</ul>");
 		
+		IndividualCustomer individualCustomer = new IndividualCustomer();
+		individualCustomer.setId(1);
+		individualCustomer.setPhone("0000000000");
+		individualCustomer.setCustomerNumber("1111111111");
+		individualCustomer.setFirstName("Tuna");
+		individualCustomer.setLastName("karaman");
+		
+		CorporaterCustomer corporaterCustomer = new CorporaterCustomer();
+		corporaterCustomer.setId(2);
+		corporaterCustomer.setCompanyName("Yıldız Holding");
+		corporaterCustomer.setPhone("0000000001");
+		corporaterCustomer.setTaxNumber("11");
+		corporaterCustomer.setCustomerNumber("88888888");
+		
+		Customer[] customers = {individualCustomer,corporaterCustomer};
+		
+		for (Customer customer : customers) 
+		{
+			System.out.println(customer.getCustomerNumber());
+		}
+		
 	}
 
 }
